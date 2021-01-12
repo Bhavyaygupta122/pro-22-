@@ -49,22 +49,24 @@ function draw() {
   if(star.y >485){
 	 star.velocityY=0;
   }
-
-  keyPressed();
+	
   drawSprites();
 
 }
 
+
+
 function keyPressed() {
-	if(keyDown("right")){
+	if(keyCode === RIGHT_ARROW){
 	   fairy.x= fairy.x+3
 	}
-	if(keyDown("left")){
+	if(keyCode === LEFT_ARROW){
 		fairy.x= fairy.x-3;
 	 }
-	 if(keyDown("down")){
+	 if(keyCode=== DOWN_ARROW){
 		 star.velocityY=3;
 	 }
 
 
 }
+
