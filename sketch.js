@@ -58,10 +58,10 @@ function draw() {
 
 function keyPressed() {
 	if(keyCode === RIGHT_ARROW){
-	   fairy.x= fairy.x+3
+	   fairy.x= fairy.x+7
 	}
 	if(keyCode === LEFT_ARROW){
-		fairy.x= fairy.x-3;
+		fairy.x= fairy.x-7;
 	 }
 	 if(keyCode=== DOWN_ARROW){
 		 star.velocityY=3;
